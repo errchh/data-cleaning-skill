@@ -5,7 +5,10 @@ Data cleaning co-pilot. Produces a Jupyter notebook audit trail and reusable Pyt
 ## Usage
 
 ```
-User provides dataset path → Load & profile → Iterate through cleaning issues → Export clean_pipeline.py
+User provides dataset path → 
+Load & profile → 
+Iterate through cleaning issues → 
+Export clean_pipeline.py
 ```
 
 Works along with Jupyter notebook agent skills and Pandas docs as context. 
