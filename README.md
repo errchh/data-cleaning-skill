@@ -5,7 +5,7 @@ Data cleaning co-pilot. Produces a Jupyter notebook audit trail and reusable Pyt
 ## Usage
 
 ```
-npx skills add errchh/data-cleaning-skill
+npx skills add errchh/data-cleaning-skills
 ```
 
 ```
