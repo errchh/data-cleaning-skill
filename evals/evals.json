@@ -1,0 +1,64 @@
+{
+  "skill_name": "data-cleaning",
+  "evals": [
+    {
+      "id": 1,
+      "name": "customer-csv-cleaning",
+      "prompt": "I've got this CSV of customer data at evals/files/customers.csv that's a mess. Can you help me clean it up? I need to find and fix problems before I load it into our CRM. The id column should be unique, signup_date should be a proper date, age should be between 0 and 120, country names should be consistent (USA/UK/Canada), and I don't want any duplicate email entries.",
+      "expected_output": "Jupyter notebook with exploration and cleaning steps, plus a clean_data.py pipeline that handles all identified issues",
+      "files": ["evals/files/customers.csv"],
+      "expectations": [
+        "A Jupyter notebook (.ipynb) is created in output/data-cleaning/",
+        "A pipeline script clean_customers.py is created in output/data-cleaning/",
+        "The pipeline reads CSV and returns a cleaned DataFrame",
+        "Duplicate customer entries are identified and removed",
+        "Email column has no missing values in output",
+        "Age values outside 0-120 range are flagged and handled",
+        "Country values are normalised to consistent casing (USA/UK/Canada)",
+        "signup_date is converted to datetime type",
+        "Missing spend values are handled",
+        "Negative age values are addressed",
+        "The pipeline has an if __name__ == '__main__' block with argparse"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "orders-csv-cleaning",
+      "prompt": "Hey, can you clean this orders CSV? It's at evals/files/orders.csv. Something's off with the data — I think there are negative quantities, prices stored as text, and the status column has inconsistent casing. Also some totals don't match quantity * unit_price which is weird. And there's a suspicious order with quantity 100 that might be a typo. Can you walk me through what you find and let me decide how to fix each issue?",
+      "expected_output": "Jupyter notebook with conversational exploration and fixes, plus a clean_data.py pipeline for orders",
+      "files": ["evals/files/orders.csv"],
+      "expectations": [
+        "A Jupyter notebook (.ipynb) is created in output/data-cleaning/",
+        "A pipeline script clean_orders.py is created in output/data-cleaning/",
+        "Negative quantities are detected and discussed with user",
+        "unit_price stored as text ('twenty-five') is detected and addressed",
+        "Status column values are normalised to consistent casing",
+        "Missing order_date values are handled",
+        "Outlier quantity (100) is flagged to user for decision",
+        "Total column values are cross-checked against quantity * unit_price",
+        "The pipeline has CLI entrypoint with argparse",
+        "Cleaning steps happen one at a time with user confirmation"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "employees-csv-cleaning",
+      "prompt": "I need help cleaning up our employee dataset at evals/files/employees.csv. I'm not sure what's wrong with it but I know it isn't clean. Can you look at it and tell me what issues you find? Some things I'm worried about: duplicate records, weird salary values, and inconsistent data. Walk me through what you find step by step.",
+      "expected_output": "Jupyter notebook with exploration and conversational cleaning, plus clean_data.py pipeline",
+      "files": ["evals/files/employees.csv"],
+      "expectations": [
+        "A Jupyter notebook (.ipynb) is created in output/data-cleaning/",
+        "A pipeline script clean_employees.py is created in output/data-cleaning/",
+        "Exact duplicate rows are detected and removed",
+        "Salary column has 'NA' string value that is coerced to numeric",
+        "Salary of 0 is flagged as potentially invalid",
+        "Negative salary (-15000) is detected and flagged",
+        "Missing salary values are handled",
+        "manager_id column is converted to appropriate nullable type",
+        "Duplicate employee_id values are detected",
+        "The pipeline has if __name__ == '__main__' with argparse",
+        "Missing hire_date values are identified"
+      ]
+    }
+  ]
+}

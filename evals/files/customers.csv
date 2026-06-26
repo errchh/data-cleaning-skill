@@ -1,0 +1,41 @@
+id,name,email,signup_date,age,country,spend
+1,Alice Johnson,alice@example.com,2024-01-15,32,USA,250.50
+2,Bob Smith,bob@example.com,01/20/2024,45,USA,180.00
+3,Charlie Brown,charlie@example.com,2024-03-10,,Canada,350.75
+4,Diana Prince,diana@example.com,2024-04-05,28,USA,0.00
+5,Eve Davis,eve@example.com,2024-05-20,52,UK,420.30
+6,Frank Miller,frank@example.com,2024-06-01,33, USA,195.60
+7,Grace Lee,grace@example.com,2024-07-15,29,Canada,
+8,Henry Wilson,henry@example.com,2024-08-01,,USA,510.20
+9,Iris Taylor,iris@example.com,2024-08-20,41,UK,310.00
+10,Jack White,jack@example.com,2024-09-10,-5,USA,75.30
+11,Karen Black,karen@example.com,2024-10-01,37,USA,890.50
+12,Leo Brown,leo@example.com,2024-11-15,,USA,0.00
+13,Mia Clark,mia@example.com,2024-12-01,26,canada,220.40
+14,Nick Hall,nick@example.com,2024-12-20,34,UK,180.00
+15,Olivia Young,olivia@example.com,2025-01-05,48,Canada,0.00
+16,Paul King,,2025-01-15,31,USA,295.30
+17,Quinn Adams,quinn@example.com,2025-02-01,29, USA,410.75
+18,Rachel Scott,rachel@example.com,2025-02-15,27,Canada,350.25
+19,Sam Turner,sam@example.com,2025-03-01,,UK,160.00
+20,Tina Lopez,tina@example.com,2025-03-15,42,USA,725.40
+21,Uma Patel,uma@example.com,2025-04-01,36,USA,
+22,Victor Chen,victor@example.com,2025-04-15,30,Canada,540.00
+23,Wendy Moore,wendy@example.com,2025-05-01,24, USA,280.50
+24,Xander Beck,xander@example.com,2025-05-20,33,UK,0.00
+25,Yara James,yara@example.com,2025-06-01,,USA,810.20
+26,Zane Cruz,zane@example.com,2025-06-15,28,Canada,410.00
+27,Amy Wong,amy@example.com,2025-06-20,44,USA,195.00
+28,Brian Fox,brian@example.com,2025-07-01,38,uk,605.75
+29,Cathy Reed,cathy@example.com,2025-07-15,31,USA,0.00
+30,David Stone,david@example.com,2025-08-01,150,USA,920.30
+31,Emily Post,emily@example.com,2025-08-15,,Canada,0.00
+32,Frank Castle,frank@example.com,2025-09-01,35,USA,340.00
+33,Gina Lin,gina@example.com,2025-09-15,29,Canada,520.60
+34,Hank Hill,hank@example.com,2025-10-01,52,USA,410.00
+35,Ivy Green,ivy@example.com,2025-10-15,27,UK,280.10
+36,Jack Sparrow,jack@example.com,2025-11-01,33,USA,675.80
+37,Kara Lane,kara@example.com,2025-11-15,,Canada,350.00
+38,Liam Payne,liam@example.com,2025-12-01,31,USA,490.30
+39,Mona Lisa,mona@example.com,2025-12-15,40,,0.00
+40,Nick Hall,nick@example.com,2025-01-10,34,UK,180.00

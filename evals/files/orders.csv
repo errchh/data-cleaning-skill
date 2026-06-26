@@ -1,0 +1,31 @@
+order_id,customer_name,product,quantity,unit_price,total,order_date,status
+1001,Alice Johnson,Widget A,2,25.00,50.00,2025-01-15,shipped
+1002,Bob Smith,Gadget B,1,150.00,150.00,2025-01-20,Shipped
+1003,Charlie Brown,Widget A,3,25.00,75.00,2025-01-25,pending
+1004,Diana Prince,DOODAD C,5,12.50,62.50,2025-02-01,shipped
+1005,Frank Miller,Widget A, -1,25.00,-25.00,2025-02-05,shipped
+1006,Grace Lee,Gadget B,2,150.00,300.00,2025-02-10,PENDING
+1007,Henry Wilson,Widget A,1,25.00,25.00,2025-02-15,,unknown
+1008,Iris Taylor,DOODAD C,4,12.50,50.00,2025-02-20,shipped
+1009,Jack White,Gadget B,1,150.00,150.00,2025-03-01,cancelled
+1010,Karen Black,Widget A,10,25.00,250.00,2025-03-05,Shipped
+1011,Leo Brown,DOODAD C,2,12.50,25.00,2025-03-10,Pending
+1012,Mia Clark,Gadget B,100,150.00,15000.00,2025-03-15,shipped
+1013,Nick Hall,Widget A,3,25.00,75.00,2025-03-20,shipped
+1014,Olivia Young,DOODAD C,-5,12.50,-62.50,2025-03-25,shipped
+1015,Paul King,Widget A,2,twenty-five,50.00,2025-04-01,pending
+1016,Quinn Adams,Gadget B,1,150.00,150.00,2025-04-05,shipped
+1017,Rachel Scott,Widget A,4,25.00,100.00,,shipped
+1018,Sam Turner,DOODAD C,3,12.50,37.50,2025-04-15,Pending
+1019,Tina Lopez,Gadget B,2,150.00,300.00,2025-04-20,Shipped
+1020,Uma Patel,Widget A,1,25.00,25.00,2025-04-25,shipped
+1021,Victor Chen,Widget A,4,25.00,100.00,2025-05-01,PENDING
+1022,Wendy Moore,DOODAD C,1,12.50,12.50,2025-05-05,shipped
+1023,Xander Beck,Gadget B,3,150.00,450.00,2025-05-10,shipped
+1024,Yara James,Widget A,2,25.00,50.00,2025-05-15,pending
+1025,Zane Cruz,DOODAD C,8,12.50,100.00,2025-05-20,shipped
+1026,Amy Wong,Gadget B,1,150.00,150.00,2025-05-25,Shipped
+1027,Brian Fox,Widget A,5,25.00,125.00,2025-06-01,shipped
+1028,Cathy Reed,DOODAD C,3,12.50,37.50,2025-06-05,cancelled
+1029,David Stone,Gadget B,2,150.00,300.00,2025-06-10,shipped
+1030,Emily Post,Widget A,1,25.00,25.00,2025-06-15,shipped
